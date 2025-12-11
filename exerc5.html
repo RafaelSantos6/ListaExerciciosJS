@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas do Grupo</title>
+    <link rel="stylesheet" href="css/exerc5.css">
+</head>
+<body>
+
+    <h1>Análise de Grupo (10 Pessoas)</h1>
+
+    <div class="input-group">
+        <label>Idade:</label>
+        <input type="number" id="inIdade" placeholder="Anos">
+    </div>
+
+    <div class="input-group">
+        <label>Peso:</label>
+        <input type="number" id="inPeso" placeholder="Kg (ex: 70.5)">
+    </div>
+
+    <div class="input-group">
+        <label>Sexo:</label>
+        <select id="inSexo">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+        </select>
+    </div>
+
+    <button id="btRegistrar">Registrar Pessoa</button>
+    <button id="btReiniciar" style="background-color: #6c757d; margin-left: 10px;">Reiniciar</button>
+
+    <div id="painelResultados">
+        <p>Pessoas cadastradas: <span id="outContador" class="destaque">0</span> / 10</p>
+        <hr>
+        <div class="linha-resultado">Total de Homens: <span id="outTotalHomens" class="destaque">0</span></div>
+        <div class="linha-resultado">Total de Mulheres: <span id="outTotalMulheres" class="destaque">0</span></div>
+        <div class="linha-resultado">Média Idade (Homens): <span id="outMediaIdadeH" class="destaque">-</span></div>
+        <div class="linha-resultado">Média Peso (Mulheres): <span id="outMediaPesoM" class="destaque">-</span></div>
+    </div>
+
+    <script src="js/exerc5.js"></script>
+
+</body>
+</html>

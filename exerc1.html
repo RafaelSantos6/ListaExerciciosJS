@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Altura e Gênero</title>
+    <link rel="stylesheet" href="css/exerc1.css">
+   
+</head>
+<body>
+
+    <h1>Pesquisa IBGE (Simulado)</h1>
+
+    <div class="input-group">
+        <label>Altura:</label>
+        <input type="number" id="inAltura" step="0.01" placeholder="Ex: 1.75">
+    </div>
+
+    <div class="input-group">
+        <label>Sexo:</label>
+        <select id="inSexo">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+        </select>
+    </div>
+
+    <button id="btAdicionar">Adicionar Dados</button>
+    <button id="btLimpar" style="background-color: #666;">Reiniciar</button>
+
+    <div id="resultados">
+        <p>Pessoas cadastradas: <span id="outTotal" class="destaque">0</span> / 15</p>
+        <hr>
+        <p>Maior altura do grupo: <span id="outMaior" class="destaque">0.00</span> m</p>
+        <p>Menor altura do grupo: <span id="outMenor" class="destaque">0.00</span> m</p>
+        <p>Média de altura (Mulheres): <span id="outMediaMulher" class="destaque">0.00</span> m</p>
+        <p>Número de homens: <span id="outNumHomens" class="destaque">0</span></p>
+    </div>
+
+  <script src="js/exerc1.js"></script>
+</body>
+</html>

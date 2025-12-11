@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma Pares e Primos</title>
+    <link rel="stylesheet" href="css/exerc3.css">
+</head>
+<body>
+
+    <h1>Analisador de Números</h1>
+
+    <div class="input-group">
+        <label>Digite um número:</label>
+        <input type="number" id="inNumero" placeholder="Digite aqui">
+        <button id="btAdicionar">Adicionar</button>
+    </div>
+
+    <div id="resultados">
+        <p>Contagem: <span id="outContagem">0</span> / 10</p>
+        <p class="historico" id="outHistorico">Números digitados: </p>
+        <hr>
+        <p>Soma dos Pares: <span id="outSomaPares" class="destaque">0</span></p>
+        <p>Soma dos Primos: <span id="outSomaPrimos" class="destaque">0</span></p>
+    </div>
+
+    <button id="btReiniciar" style="background-color: #666; margin-top: 10px;">Reiniciar</button>
+
+    <script src="js/exerc3.js"></script>
+</body>
+</html>

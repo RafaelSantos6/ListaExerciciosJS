@@ -1,0 +1,26 @@
+ body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; margin: 30px; }
+        h1 { border-bottom: 2px solid #ccc; padding-bottom: 10px; }
+        
+        .input-group { margin: 20px 0; }
+        input { padding: 8px; width: 150px; }
+        
+        button {
+            padding: 8px 20px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        button:hover { background-color: #0056b3; }
+
+        /* Estilo da área de resposta */
+        #resultado {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-left: 5px solid #007bff; /* Detalhe visual lateral */
+            line-height: 1.6; /* Espaçamento entre as linhas */
+        }
+        span { font-weight: bold; color: #333; }

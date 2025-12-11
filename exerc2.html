@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Cinema JS</title>
+    <link rel="stylesheet" href="css/exerc2.css">
+</head>
+<body>
+
+    <h1>Pesquisa de Satisfação - Cinema</h1>
+
+    <div class="input-group">
+        <label>Idade do Espectador:</label>
+        <input type="number" id="inIdade" placeholder="Ex: 25">
+    </div>
+
+    <div class="input-group">
+        <label>Opinião:</label>
+        <select id="inOpiniao">
+            <option value="3">3 - Ótimo</option>
+            <option value="2">2 - Bom</option>
+            <option value="1">1 - Regular</option>
+        </select>
+    </div>
+
+    <button id="btRegistrar">Registrar Resposta</button>
+    <button id="btReiniciar" style="background-color: #666;">Reiniciar Pesquisa</button>
+
+    <div id="resultados">
+        <p>Total de Participantes: <span id="outTotal" class="destaque">0</span> / 15</p>
+        <hr>
+        <p>Média de idade (Ótimo): <span id="outMediaOtimo" class="destaque">-</span></p>
+        
+        <p>Qtd. respostas 'Regular': <span id="outQtdRegular" class="destaque">0</span></p>
+        
+        <p>Porcentagem de 'Bom': <span id="outPorcBom" class="destaque">0.00</span> %</p>
+    </div>
+
+    <script src="js/exerc2.js"></script>
+ 
+</body>
+</html>
